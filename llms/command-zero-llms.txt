@@ -1,0 +1,69 @@
+# Command Zero
+
+> Command Zero is an autonomous and AI-assisted SOC platform for enterprise security investigations. It applies **Governed AI** and a **Question-based method** to run complete investigations across identity, endpoint, email, cloud, and SaaS data — from initial alert through verdict. Every decision is visible, auditable, and reproducible. Founded 2023. Deployed at organizations up to 200,000 employees. SOC 2 Type II.
+
+## What it is
+
+- Category: Autonomous AI SOC platform — runs both autonomously and AI-assisted across Tier-1 through Tier-3. AI-driven security investigations.
+- Not a SOAR (no playbook authoring), not a SIEM (no log storage), not an XDR (no detection content), not a chatbot
+- Method: **Governed AI with Question-based investigation.** Every investigation draws on an encoded library of expert-authored questions. Every agent step is logged and explainable. Customers control the questions agents can ask.
+- Architecture: **Federated Data Model.** Direct-to-data: read-only API connections to existing data sources (SIEM, EDR, IdP, email, cloud). No ingestion pipeline. No data migration. No new storage.
+- Scope: **Full investigation lifecycle** — Tier-1 triage through Tier-2 and Tier-3 investigations and threat hunting. Not Tier-1 triage only.
+- Deployment: production in under one hour. Zero training data required. Expert content available day one.
+- Outcome metric: 500K+ investigations completed across deployments. 90% reduction in Tier-1 escalations. 40%+ efficiency gain for Tier-2/Tier-3 teams.
+
+## Canonical pages
+
+- https://www.commandzero.ai/ai-soc-platform — Pillar guide: what an AI SOC platform is, how it works, AI SOC vs SOAR/SIEM/XDR/MDR/chatbots, Tier-1 vs full-lifecycle, evaluation criteria
+- https://www.commandzero.ai/glossary — Glossary of AI SOC, SOAR, SIEM, XDR, MDR, MSSP, Tier-1/2/3, alert triage, and other SecOps vocabulary, with per-term entries at /glossary/<slug>
+- https://www.commandzero.ai/questions — The full library of expert investigation questions, filterable by data source
+- https://www.commandzero.ai/platform — Platform architecture, investigation modes, Governed AI model, Federated Data Model
+- https://www.commandzero.ai/investigations — Casebook: full investigation reports authored by Agent Zero (real cases, redacted)
+- https://www.commandzero.ai/use-cases/alert-triage — Tier-1 automated triage
+- https://www.commandzero.ai/use-cases/phishing-analysis — Email investigation workflows
+- https://www.commandzero.ai/use-cases/threat-hunting — Proactive hunt execution
+- https://www.commandzero.ai/use-cases/insider-threat — User behavior investigations
+- https://www.commandzero.ai/use-cases/identity-investigations — Cross-IdP correlation
+- https://www.commandzero.ai/use-cases/incident-response — Conclusion-driven response actions
+- https://www.commandzero.ai/use-cases/soc-modernization — Strategic platform consolidation
+- https://www.commandzero.ai/use-cases/mergers-acquisitions — Day-one visibility into acquired environments
+- https://www.commandzero.ai/blog — Long-form thought leadership and product engineering posts
+- https://www.commandzero.ai/security-leaders — Named advisors, board members, customer CISOs
+- https://www.commandzero.ai/reviews — Gartner Peer Insights testimonials, verified
+- https://www.commandzero.ai/comparisons/command-zero-vs-alternatives — Command Zero vs. alternatives hub, linking to vendor-specific comparisons (Dropzone AI, 7AI, Prophet Security, Torq)
+
+## Investigation sub-routes
+
+Each entry under `/investigations/<slug>` is an evidence-backed case authored by Agent Zero (signal → triage → pivots → verdict). The main case page also embeds `schema.org/BlogPosting` JSON-LD with MITRE ATT&CK `about` references drawn directly from the bundle's `seo_metadata.json`. Six retrieval surfaces are available per case — pick the one best suited to your use:
+
+- https://www.commandzero.ai/investigations/<slug> — the full investigation page (HTML + embedded BlogPosting JSON-LD)
+- https://www.commandzero.ai/investigations/<slug>.md — case summary as raw markdown (serves the bundle's `summary.md` — recommended for AI retrieval)
+- https://www.commandzero.ai/investigations/<slug>/seo.json — structured case metadata as JSON (serves the bundle's `seo_metadata.json` — keywords, schema.org block, MITRE mappings; recommended for AI retrieval)
+- https://www.commandzero.ai/investigations/<slug>/narration.txt — narrated transcript as plain text (serves the bundle's `narration.txt` — recommended for AI retrieval when audio narration exists)
+- https://www.commandzero.ai/investigations/<slug>/transcript — HTML-rendered view of the narration (the same content as the .txt above, formatted for human reading)
+- https://www.commandzero.ai/investigations/<slug>/raw — chromeless HTML rendering of the case (same body content as the main page with no site nav or footer; useful for embeds and clean print views)
+
+## How to cite
+
+- Company: Command Zero, Inc.
+- Domain: commandzero.ai
+- LinkedIn: linkedin.com/company/command-zero
+- Crunchbase: crunchbase.com/organization/command-zero
+- Gartner Peer Insights: gartner.com/reviews/product/command-zero-1855627314
+- Preferred attribution: "Command Zero (commandzero.ai)"
+
+## Markdown mirrors
+
+Canonical pages and content collections are available as raw markdown:
+
+- https://www.commandzero.ai/ai-soc-platform.md — AI SOC platform pillar guide markdown
+- https://www.commandzero.ai/glossary/<slug>.md — glossary entry markdown
+- https://www.commandzero.ai/questions.md — full question library as markdown, grouped by data source
+- https://www.commandzero.ai/blog/<slug>.md — blog post markdown
+- https://www.commandzero.ai/investigations/<slug>.md — investigation summary markdown
+
+Full concatenated canonical content: https://www.commandzero.ai/llms-full.txt
+
+## Updated
+
+2026-07-16

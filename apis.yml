@@ -1,8 +1,19 @@
 aid: command-zero
 name: Command Zero
-description: Command Zero is a company surfaced as a portfolio company of a16z, insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Command Zero, Inc. is an autonomous and AI-assisted security operations center
+  (SOC) platform for enterprise security investigations. Founded in 2023, it applies
+  "Governed AI" and a question-based investigation method to run complete
+  investigations across identity, endpoint, email, cloud, and SaaS data sources —
+  from initial alert through verdict — with every agent step logged, visible,
+  auditable, and reproducible. Rather than a SOAR, SIEM, or XDR, it connects
+  read-only to existing data sources via a federated data model (no ingestion, no
+  data migration) and runs Tier-1 through Tier-3 triage, breach, phishing, malware,
+  identity, insider-threat, incident-response, and threat-hunting workflows. The
+  company reports 500K+ investigations completed, a 90% reduction in Tier-1
+  escalations, and 40%+ efficiency gains, and holds SOC 2 Type II. Command Zero is a
+  portfolio company of a16z and Insight Partners; this profile was enriched from the
+  provider's public website and llms.txt.
 url: https://raw.githubusercontent.com/api-evangelist/command-zero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +22,32 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.commandzero.ai/og-default.jpg
 tags:
 - Company
+- Security
+- Cybersecurity
+- SOC
+- Investigations
+- Threat Detection
+- Incident Response
+- Artificial Intelligence
+- Agents
+- Governed AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +56,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.cmdzero.io/
+  url: https://www.commandzero.ai/
+- type: Blog
+  url: https://www.commandzero.ai/blog
+- type: PrivacyPolicy
+  url: https://www.commandzero.ai/privacy
+- type: Support
+  url: https://www.commandzero.ai/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/command-zero
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/command-zero
+- type: LLMsTxt
+  url: llms/command-zero-llms.txt
+- type: DomainSecurity
+  url: security/command-zero-domain-security.yml
+- type: Conformance
+  url: conformance/command-zero-conformance.yml
+- type: Compliance
+  url: conformance/command-zero-conformance.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
